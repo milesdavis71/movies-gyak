@@ -5,22 +5,21 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5 rem, 1rem;
+    padding: 0.5rem 1rem;
     margin: 0;
     height: 65px;
     background-color: $bgcolorLight;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     &-logo {
-      display: box;
+      display: block;
       img {
         width: 60px;
       }
     }
     &-links {
       display: block;
-      list-style: none;
       margin: 0;
       padding: 0;
+      list-style: none;
       li {
         display: inline;
         margin-right: 15px;
